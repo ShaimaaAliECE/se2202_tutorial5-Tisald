@@ -1,15 +1,22 @@
 let nextPlayer = 'X'; // takes a value of either 'X' or 'O' according to the game turns
 
 //initialize the game
+var initializeBtn = document.createrElement('button');
+initializeBtn.innerText = 'Start Game!';
+document.getElementById('game-over-lbl'.appendChild(initializeBtn));
+initializeBtn.addEventListener('click', (initialEvent) => {initialEvent.target.hidden = true;});
 
 // use the value stored in the nextPlayer variable to indicate who the next player is
-
+let playerDecider = document.querySelector('b')
+let playerText = 'Next Player'
+playerIndicator.innerText = playerText;
 
 //This call will create the buttons needed for the gameboard.
 createGameBoard()
 
 function createGameBoard()
 {
+    
     // Programatically add a button with square brackets enclosing an empty space to each cell in the gameboard
    
 }
