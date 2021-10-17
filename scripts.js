@@ -52,7 +52,7 @@ function takeCell(event)
             buttonClicked.innerText = "[" + nextPlayer + "]";
             nextPlayer = "X";
             buttonClicked.disabled = true;
-            nextPlayer.innerText = nextPlayer;
+            nextPlayer1.innerText = nextPlayer;
         }
     
     }
